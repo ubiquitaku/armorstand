@@ -1,0 +1,6 @@
+name: Amasta
+version: ${project.version}
+main: ubiquitaku.amasta.Amasta
+api-version: 1.16
+commands:
+  amasta:
