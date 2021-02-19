@@ -123,6 +123,5 @@ public final class Amasta extends JavaPlugin implements Listener {
         as.setItem(EquipmentSlot.HAND,e.getInventory().getItem(4));
         as.setItem(EquipmentSlot.OFF_HAND,e.getInventory().getItem(5));
         list.remove((Player) e.getWhoClicked());
-        list.remove((Player) e.getWhoClicked());
     }
 }
