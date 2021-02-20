@@ -114,6 +114,7 @@ public final class Amasta extends JavaPlugin implements Listener {
         if (!e.getCurrentItem().getItemMeta().getDisplayName().equals("確定")) {
             return;
         }
+        e.setCancelled(true);
         ArmorStand as = (ArmorStand) getServer().getWorld(e.getWhoClicked().getWorld().getName()).spawnEntity(e.getWhoClicked().getLocation(), EntityType.ARMOR_STAND);
         as.setInvisible(true);
         as.setItem(EquipmentSlot.HEAD,e.getInventory().getItem(0));
